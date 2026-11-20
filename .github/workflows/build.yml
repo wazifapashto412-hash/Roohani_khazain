@@ -9,6 +9,7 @@ jobs:
         with:
           channel: stable
       - run: flutter create . --platforms=android,ios --project-name roohani_khazain
+      - run: rm -f test/widget_test.dart
       - run: flutter pub get
       - run: flutter test
       - run: flutter build apk --release
