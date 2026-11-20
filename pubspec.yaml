@@ -1,0 +1,24 @@
+name: roohani_khazain
+description: Roohani Khazain - روحانی خزائن. Offline Islamic duas and adhkar library.
+publish_to: 'none'
+version: 0.1.0+1
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  shared_preferences: ^2.2.3
+  share_plus: ^9.0.0
+  # google_mobile_ads: ^5.1.0   # enable only when you turn ads on (see docs/ADMOB_SETUP.md)
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/content/
+    - assets/images/
+  # Fonts: add licensed Nastaleeq (e.g. Noto Nastaliq Urdu, OFL) and Amiri (OFL)
+  # files under assets/fonts/ and declare them here. See docs/FONTS.md.
